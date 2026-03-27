@@ -1,0 +1,137 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;700&display=swap"); */
+
+html,
+body,
+#root,
+.App {
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url(https://store.spacewood.in/sample/map/globe-technology-business-with-gradient-wallpaper.jpg)no-repeat center fixed;
+    /* background: url(/map/png.jpg)no-repeat center fixed; */
+    background-size: cover;
+    /* background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%); */
+    height: 100vh;
+}
+
+h3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    font-weight: 300;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+@media screen and (max-width: 992px) {
+    h3 {
+        font-size: 2rem;
+    }
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 15rem;
+    height: 16rem;
+    border-radius: 8px;
+    background-color: white;
+    padding: 1rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.photo img {
+    border-radius: 8px;
+    width: 100%;
+}
+
+button {
+    margin-top: 0.5rem;
+}
+
+svg {
+    width: 8rem;
+    height: auto;
+    margin: auto;
+}
+
+.card:hover path {
+    animation: dash 3s linear forwards;
+}
+
+.card:hover .path-extra-long {
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 2000;
+}
+
+.card:hover .path-long {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+}
+
+.card:hover .path-short {
+    stroke-dasharray: 150;
+    stroke-dashoffset: 150;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.btn-2 {
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.1rem;
+    padding: 0 0.4rem;
+    border: 1px solid #e1dad1;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+.fa-location-dot:before,
+.fa-map-marker-alt:before {
+    content: "\f3c5";
+    color: #fbb700;
+}
+
+
+@media (max-width: 767px) {
+    .custom-select {
+        display: inline-block;
+        width: 70%;
+
+    }
+}

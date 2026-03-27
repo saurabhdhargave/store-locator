@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store Locator</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h3>Store Locator</h3>
+    <div class="container">
+        <div class="row" style="justify-content: center;">
+            <div class="col-md-4 text-center mb-3 p-2">
+                <select id="stateSelect" class="custom-select custom-select ">
+                    <option value="all">Select States</option>
+                    <option value="Asm">Assam</option>
+                    <option value="ch">Chandigarh</option>
+                    <option value="chh">Chhattisgarh</option>
+                    <option value="del">Delhi</option>
+                    <option value="gj">Gujarat</option>
+                    <option value="hr">Haryana</option>
+                    <option value="jh"> Jharkhand</option>
+                    <option value="ka">Karnataka</option>
+                    <option value="kl">Kerala</option>
+                    <option value="mp">Madhya Pradesh</option>
+                    <option value="mh">Maharashtra</option>
+                    <option value="rj">Rajasthan</option>
+                    <option value="tn">Tamil Nadu</option>
+                    <option value="tel">Telangana</option>
+                    <option value="up">Uttar Pradesh</option>
+                    <option value="uk">Uttarakhand</option>
+                    <option value="wb">West Bengal</option>
+                </select>
+            </div>
+        </div>
+        <!-- </div> -->
+        <div class="cards">
+
+            <div class="card" data-state="gj">
+                <h2><i class="fa-sharp fa-solid fa-location-dot fa-sm" style="margin-right: 10px;"></i>AHMEDABAD</h2>
+                <a href="#" class="photo"><img
+                        src="https://i0.wp.com/www.opindia.com/wp-content/uploads/2021/02/Ahmedabad-630x381-1.jpg?fit=630%2C381&ssl=1"></a>
+
+                <button class="rounded btn-2">Store</button>
+            </div>
+
+            <div class="card" data-state="ka">
+                <h2><i class="fa-sharp fa-solid fa-location-dot fa-sm" style="margin-right: 10px;"></i>bangalore</h2>
+                <a href="#" class="photo">
+                    <img
+                        src="https://deih43ym53wif.cloudfront.net/bangalore-india-shutterstock_662210488_ac0dd8543d.jpeg">
+
+                </a>
+                <button class="rounded btn-2">3 Store</button>
+            </div>
+
+
+            <div class="card" data-state="up">
+                <h2><i class="fa-sharp fa-solid fa-location-dot fa-sm" style="margin-right: 10px;"></i> Agra</h2>
+                <a href="#" class="photo"><img
+                        src="https://drop.ndtv.com/images/homepage/4efaukaa_hilton-destinations-agra-travel-guide_16_October_2018_11-37-30AM.jpg"></a>
+
+                <button class="rounded btn-2">Store</button>
+            </div>
+
+            <div class="card" data-state="ch">
+                <h2><i class="fa-sharp fa-solid fa-location-dot fa-sm" style="margin-right: 10px;"></i>CHANDIGARH</h2>
+                <a href="#" class="photo"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Open_Hand_monument%2C_Chandigarh.jpg/1280px-Open_Hand_monument%2C_Chandigarh.jpg"></a>
+                <button class="rounded btn-2">Store</button>
+            </div>
+
+            <div class="card" data-state="tn">
+                <h2><i class="fa-sharp fa-solid fa-location-dot fa-sm" style="margin-right: 10px;"></i>chennai</h2>
+                <a href="#" class="photo">
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrjrLF5HS90zphxNj8NW0zy_3utVcUP0gaIw&s">
+                </a>
+                <button class="rounded btn-2">2 Store</button>
+            </div>
+
+            <div class="card" data-state="jh">
+                <h2><i class="fa-sharp fa-solid fa-location-dot fa-sm" style="margin-right: 10px;"></i>Dhanbad</h2>
+                <a href="#" class="photo">
+                    <img
+                        src="  https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcRoKV4059qq29c5wJ-AF8ZLeL68P9BK3Abt-2wnRVBwtB_q0sWmI28a21gOg3vB_54K">
+                </a>
+                <button class="rounded btn-2">2 Store</button>
+            </div>
+
+
+
+
+
+
+            <div class="card" data-state="uk">
+                <h2><i class="fa-sharp fa-solid fa-location-dot fa-sm" style="margin-right: 10px;"></i> DEHRADUN</h2>
+                <a href="#" class="photo"><img
+                        src="https://www.tourmyindia.com/blog//wp-content/uploads/2019/02/Rishikesh-Yoga-City-India.jpg"></a>
+                <button class="rounded btn-2">Store</button>
+            </div>
+            <div class="card" data-state="del">
+                <h2><i class="fa-sharp fa-solid fa-location-dot fa-sm" style="margin-right: 10px;"></i>Delhi</h2>
+                <a href="#" class="photo">
+                    <!-- <img src="city_imgp/India-Gate.jpg.webp"> -->
+                    <img src="https://img.freepik.com/free-photo/architecture-ancient-monument-world-heritage-day-celebration_23-2151297159.jpg?t=st=1744287192~exp=1744290792~hmac=4eebaa8eb166065558732e757bb358534953bbd846cd62ee5a46da11e742032f&w=1380"
+                        alt="">
+                </a>
+                <button class="rounded btn-2">Store</button>
+            </div>
+
+
+            <div class="card" data-state="Asm">
+                <h2><i class="fa-sharp fa-solid fa-location-dot fa-sm" style="margin-right: 10px;"></i>GUWAHATI</h2>
+                <a href="#" class="photo"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/1/11/Guwahati_citysky.jpg"></a>
+                <button class="rounded btn-2">Store</button>
+            </div>
+
+            <div class="card" data-state="hr">
+                <h2><i class="fa-sharp fa-solid fa-location-dot fa-sm" style="margin-right: 10px;"></i> GURGAON</h2>
+                <a href="#" class="photo"><img
+                        src="https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcTB9UWrZdgF2XtXZgpdemc2W9VTs_CsQGw7IK1H5yRy5PUWa5xDXmrvupyO3sJtPf9z"></a>
+                <button class="rounded btn-2">Store</button>
+            </div>
+            <div class="card" data-state="mp">
+                <h2><i class="fa-sharp fa-solid fa-location-dot fa-sm" style="margin-right: 10px;"></i> GWALIOR</h2>
+                <a href="#" class="photo"><img
+                        src="https://t1.gstatic.com/licensed-image?q=tbn:ANd9GcQLZlNtSF2m12VFq7OH5aKxUyGAPSLmqVJzPIJbk7gYGqNNy1vjDBwznv8mPueUf1dB"></a>
+                <button class="rounded btn-2">Store</button>
+            </div>
+
+            <div class="card" data-state="tel">
+                <h2><i class="fa-sharp fa-solid fa-location-dot fa-sm" style="margin-right: 10px;"></i>hyderabad</h2>
+                <a href="#" class="photo">
+                    <img
+                        src="https://t1.gstatic.com/licensed-image?q=tbn:ANd9GcRp5R_NI-3-HYsykq5H-oO3xNi0ZjiFklLZIw_4TD_CJ70I4Ofk8NwHBaQFmP-ExELd">
+                </a>
+                <button class="rounded btn-2">Store</button>
+            </div>
+
+            <div class="card" data-state="rj">
+                <h2><i class="fa-sharp fa-solid fa-location-dot fa-sm" style="margin-right: 10px;"></i>jaipur</h2>
+                <a href="#" class="photo">
+                    <img
+                        src="https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcTKsqvJf0KCroqL9NNRIue1bb7hGp9o7ZVAWs4yf-qvo3CzffgRGMYCgjqhwsRn-BrJ">
+                </a>
+                <button class="rounded btn-2">Store</button>
+            </div>
+            <div class="card" data-state="mp">
+                <h2><i class="fa-sharp fa-solid fa-location-dot fa-sm" style="margin-right: 10px;"></i>jabalpur</h2>
+                <a href="#" class="photo"><img
+                        src="https://img.staticmb.com/mbcontent/images/crop/uploads/2025/9/A-picture-of-Jabalpur-Fort-part-or-the-master-plan_0_1200.jpg.webp"></a>
+                <button class="rounded btn-2">Store</button>
+            </div>
+            <div class="card" data-state="chh">
+                <h2><i class="fa-sharp fa-solid fa-location-dot fa-sm" style="margin-right: 10px;"></i>Jagdalpur</h2>
+                <a href="#" class="photo"><img
+                        src="   https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcQBuNx736ASM0VtO2ajTBdKN5QvtVrjVhgMiuslkZ3n37KV_nIxHk4nqBLfJEfXAwRQ"></a>
+                <button class="rounded btn-2">Store</button>
+            </div>
+
+
+
+
+
+            <div class="card" data-state="up">
+                <h2><i class="fa-sharp fa-solid fa-location-dot fa-sm" style="margin-right: 10px;"></i>Kanpur</h2>
+                <a href="#" class="photo"><img
+                        src="https://cdn.britannica.com/45/144345-050-CC53E3B5/Kanpur-Uttar-Pradesh-India.jpg"></a>
+                <button class="rounded btn-2">Store</button>
+            </div>
+            <div class="card" data-state="kl">
+                <h2><i class="fa-sharp fa-solid fa-location-dot fa-sm" style="margin-right: 10px;"></i>kochi</h2>
+                <a href="#" class="photo">
+                    <img
+                        src="https://t1.gstatic.com/licensed-image?q=tbn:ANd9GcStrTWF60Q8l7DlQCfkPadqPIAaGqQc2jd7OnY1J7KTv4mRh9Dcbh5Pywj0IPNVTDt8">
+                </a>
+                <button class="rounded btn-2">Store</button>
+            </div>
+
+            <div class="card" data-state="wb">
+                <h2><i class="fa-sharp fa-solid fa-location-dot fa-sm" style="margin-right: 10px;"></i>kolkata</h2>
+                <a href="#" class="photo">
+                    <img
+                        src="https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcR7zDM4gcp8DPMJ8klHr-TKv2qpvZvErQrVfSnAbJBp8Gf4N3flxYqASET7MPkcrPVV">
+                </a>
+                <button class="rounded btn-2">2 Store</button>
+            </div>
+
+
+            <div class="card" data-state="up">
+                <h2><i class="fa-sharp fa-solid fa-location-dot fa-sm" style="margin-right: 10px;"></i> LUCKNOW</h2>
+                <a href="#" class="photo"><img
+                        src="https://cdn.britannica.com/80/10180-050-7221E67C/Rumi-Darwaza-Turkish-Gate-Lucknow-India-Uttar.jpg?w=400&h=300&c=crop"></a>
+                <button class="rounded btn-2">Store</button>
+            </div>
+
+
+            <div class="card" data-state="up">
+                <h2><i class="fa-sharp fa-solid fa-location-dot fa-sm" style="margin-right: 10px;"></i> MEERUT</h2>
+                <a href="#" class="photo"><img
+                        src="https://d13ir9awo5x8gl.cloudfront.net/dyn-res/city/city_1678184663999987469.webp"></a>
+                <button class="rounded btn-2">Store</button>
+            </div>
+
+            <div class="card" data-state="mh">
+                <h2><i class="fa-sharp fa-solid fa-location-dot fa-sm" style="margin-right: 10px;"></i>mumbai</h2>
+                <a href="#" class="photo">
+                    <img src="https://images.memphistours.com/large/a18740a16cbfc72d97c819b72670a297.jpg">
+                </a>
+                <button class="rounded btn-2">Store</button>
+            </div>
+
+            <div class="card" data-state="ka">
+                <h2><i class="fa-sharp fa-solid fa-location-dot fa-sm" style="margin-right: 10px;"></i>Mysuru</h2>
+                <a href="#" class="photo">
+                    <img
+                        src="https://s7ap1.scene7.com/is/image/incredibleindia/lalitha-mahal-palace-mysuru-karnataka-city-1-hero?qlt=82&ts=1742199958112">
+                </a>
+                <button class="rounded btn-2">Store</button>
+            </div>
+
+
+
+            <div class="card" data-state="up">
+                <h2><i class="fa-sharp fa-solid fa-location-dot fa-sm" style="margin-right: 10px;"></i>noida</h2>
+                <a href="#" class="photo">
+                    <img
+                        src="https://www.livemint.com/lm-img/img/2024/10/21/optimize/Noida_City_1729507473903_1729507481547.jpg">
+                </a>
+                <button class="rounded btn-2">Store</button>
+            </div>
+
+
+            <div class="card" data-state="mh">
+                <h2><i class="fa-sharp fa-solid fa-location-dot fa-sm" style="margin-right: 10px;"></i>pune</h2>
+                <a href="#" class="photo">
+                    <img src="https://wpblogassets.paytm.com/travelblog/uploads/2024/11/Pune-scaled.jpeg">
+                </a>
+                <button class="rounded btn-2">Store</button>
+            </div>
+
+
+
+            <div class="card" data-state="chh">
+                <h2><i class="fa-sharp fa-solid fa-location-dot fa-sm" style="margin-right: 10px;"></i>Raipur</h2>
+                <a href="#" class="photo"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Raipur_Railway_Station_Entrance.jpg/1280px-Raipur_Railway_Station_Entrance.jpg"></a>
+                <button class="rounded btn-2">Store</button>
+            </div>
+
+            <div class="card" data-state="jh">
+                <h2><i class="fa-sharp fa-solid fa-location-dot fa-sm" style="margin-right: 10px;"></i> RANCHI</h2>
+                <a href="#" class="photo"><img
+                        src="https://i.pinimg.com/736x/a3/c8/29/a3c829d2d4c2e168734ce2b2b2b64bc9.jpg"></a>
+                <button class="rounded btn-2">Store</button>
+            </div>
+
+            <div class="card" data-state="kl">
+                <h2><i class="fa-sharp fa-solid fa-location-dot fa-sm" style="margin-right: 10px;"></i> TRIVANDRUM</h2>
+                <a href="#" class="photo"><img
+                        src="https://cdn.britannica.com/82/263282-050-D90D37DF/Hinduism-People-visiting-the-Sree-Padmanabhaswamy-Temple-in-Thiruvananthapuram-Trivandrum-Kerala-India-on-April-12-2024.jpg"></a>
+                <button class="rounded btn-2">Store</button>
+            </div>
+            <div class="card" data-state="gj">
+                <h2><i class="fa-sharp fa-solid fa-location-dot fa-sm" style="margin-right: 10px;"></i> Vadodara</h2>
+                <a href="#" class="photo"><img
+                        src="   https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcQdjQx2-tTcj7vc2vEf-kJ0kGDWnTFxglrXf3jlNFa6UkZLw4caveztD7uNV3BhcAi4"></a>
+                <button class="rounded btn-2">Store</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/119df9e675.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
